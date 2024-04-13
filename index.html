@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Pokemon Quiz</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pokemon Typing Quiz</h1>
+        <p>This quiz will test your knowledge about various typings. It'll include:</p>
+    </header>
+
+    <ul>
+        <li>Pokemon</li>
+        <li>Moves</li>
+        <li>Various Trainers main typings</li>
+    </ul>
+
+    <article>
+        <section>
+            <p>Question 1: What typing is the pokemon Hydreigon?</p>
+            <input type="radio" name="q1" class="correct">Dark/Dragon<br>
+            <input type="radio" name="q1">Water<br>
+            <input type="radio" name="q1">Dragon/Flying<br>
+            <input type="radio" name="q1">Steel<br>
+        </section>
+        <section>
+            <p>Question 2: What type does the gym leader Elesa specialize in?</p>
+            <input type="radio" name="q2">Flying<br>
+            <input type="radio" name="q2">Ground<br>
+            <input type="radio" name="q2">Dragon<br>
+            <input type="radio" name="q2" class="correct">Electric<br>
+        </section>
+        <section>
+            <p>Question 3: What type is the move Shadow Ball?</p>
+            <input type="radio" name="q3">Fairy<br>
+            <input type="radio" name="q3" class="correct">Ghost<br>
+            <input type="radio" name="q3">Dark<br>
+            <input type="radio" name="q3">Psychic<br>
+        </section>
+        <section>
+            <p>Question 4: What type is Cynthia's ace pokemon?</p>
+            <input type="radio" name="q4">Dragon/Bug<br>
+            <input type="radio" name="q4">Ground/Rock<br>
+            <input type="radio" name="q4" class="correct">Dragon/Ground<br>
+            <input type="radio" name="q4">Flying/Ground<br>
+        </section>
+
+        <br><button id="button">Submit</button>
+    
+        <div>
+            <h2>Score:</h2>
+            <p id="totalcorrect">N/A</p>
+        </div>
+    
+    </article>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
